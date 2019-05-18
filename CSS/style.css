@@ -1,0 +1,120 @@
+body {
+	background-color:#007FFF;
+	
+}
+
+.wrapper {
+	background-color:#CFB53B;
+	display:grid;
+	grid-template-columns:repeat(auto-fit, minmax(4rem,1fr));;
+	grid-template-rows: 2fr 3fr 3fr 1fr;
+	width:82%;
+	margin-left: auto;	
+	margin-right: auto;
+	border-radius: 25px;
+	border: 14px solid white;
+	
+}
+
+.wrapper > div{
+	border-radius: 2px;
+	border: 2px solid black;
+}
+	
+.scrollM{
+	grid-column:1/3;
+}
+
+#header{
+	padding:5px;
+	font-family:Segoe UI;
+	background-color: #007FFF;
+	color: #CFB53B;
+	text-align:center;
+	
+}
+
+h1 {
+	margin: 0;
+}
+#main{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	grid-template-row:1fr;
+	grid-column:1/3;
+}
+
+ 
+#selM {
+	grid-row:1;
+	grid-column:1/2;
+} 
+
+#selC {
+	grid-row:1;
+	grid-column:2/3;
+}
+
+
+
+
+#main > div {
+	border-radius: 2px;
+	border: 5px solid red;
+	display:grid;
+	grid-template-row:1fr;
+	grid-template-columns:1fr 1fr;
+}
+
+
+#main > div > div {
+	border-radius: 2px;
+	border: 2px solid blue;
+	
+}
+ 
+#textMajor{
+	text-align:left;
+	padding-left:10%;
+	justify-self:start;
+
+}
+
+#textClass{
+	justify-self:start;
+	text-align:left;
+}
+ 
+#Majors{
+	text-align:center;
+	justify-self:center;
+	align-self:center;
+} 
+ 
+#Classes{
+	ttext-align:center;
+	justify-self:center;
+	align-self:center;
+} 
+
+
+
+#mChart {
+	grid-column:1/3;
+}
+
+#cChart {
+	grid-column:1/3;
+}
+
+h6 {
+	margin: 0;
+}
+
+#footer {
+	padding:0em;
+	align-self: end;
+	justify-self: end;
+	grid-column:2;
+	text-align:bottom;
+}
