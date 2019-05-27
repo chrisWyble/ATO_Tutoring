@@ -20,7 +20,7 @@
 				<div id="selM">
 					
 					<div id ="textMajor">
-						<p><strong>Select your major: </strong></p>
+						<h3>Select your major: </h3>
 					</div>
 					
 					<div id="Majors">
@@ -41,7 +41,7 @@
 				<div id="selC">
 				
 					<div id ="textClass">
-						<p><strong>Select the class you need tutoring in: </strong></p>
+						<h3>Select the class you need tutoring in: </h3>
 					</div>
 					
 					<div id="Classes">
@@ -61,7 +61,7 @@
 			</div>	
 			
 				<div id="mChart">
-					<h3>major chart</h3>
+					<h3>Major Chart</h3>
 					<table id="majorChart">
 					    <tr>
 					        <th>Name</th>
@@ -70,7 +70,7 @@
 					</table>    
 				</div>
 				<div id="cChart">
-					<h3>class chart</h3>
+					<h3>Class Chart</h3>
 					<table id="classChart">
 					    <tr>
 					        <th>Name</th>
